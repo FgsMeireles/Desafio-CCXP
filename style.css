@@ -1,0 +1,121 @@
+*{
+    margin: 0px;
+}
+
+    /* Topíco Superíor */
+    header{
+        background-color:#FFD900;
+    }
+
+    #logoCCXP{
+        margin-top: 28px;
+        margin-left: 58px;
+        margin-bottom: 28px;
+    }
+
+
+    /* Menu Descritivo */
+    section{
+        display: grid;
+        grid-auto-flow: column;
+        align-items: center;
+    }
+
+    #Descrição{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        padding-top: 31px;
+        padding-bottom: 92px;
+        text-align: center;
+        background-color: #514988;
+        color: #FFFFFF;
+        font-size: 27px;
+        font-weight: 400;
+    }
+
+    #titulo{
+        padding-bottom: 72px;
+    }
+
+    #titulo h1{
+        font-weight: 700;
+        font-size: 70px;
+        color: #F3C61F;
+    }
+
+    #titulo p{
+        margin-top: 40px;
+    }
+
+    .Ingresso{
+        cursor: pointer;
+        margin-top: 15px;
+        padding: 5px;
+    }
+
+    #countDown{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: #514988;
+        font-weight: 700;
+        font-size: 50px;
+        display: grid;
+        grid-auto-flow: column;
+        text-align: center;
+    }
+
+    #efeito p{
+        font-weight: 700;
+        font-size: 30px;
+        text-align: center;
+        color: #E33881;
+        margin-top: 15px;
+        margin-bottom: 20px;
+    }
+
+    #video{
+        align-items: center;
+        width: 700px;
+        margin-left: 15px;
+    }
+
+    /* Rodapé */
+    footer{
+        display: grid;
+        grid-auto-flow: column;
+        margin-left: 70px;
+        margin-top: 15px;
+
+        /* Testo emergencial */
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        line-height: 32px;
+        font-size: 15px;
+        font-weight: 400;
+        color: #F3C61F;
+    }
+
+    button{
+        margin-top: 90px;
+        align-items: center;
+        border: none;
+        border-radius: 20px;
+        padding: 34px 89px 34px 90px;
+        cursor: pointer;
+
+        /* Fortação palavras */
+        font-size: 42px;
+        font-weight: 700;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: #FFFFFF;
+        background-color:#514988;
+    }
+
+    button:hover{
+        background-color: #6359a5;
+        color: #F3C61F;
+        transform: translateY(-7px);
+        box-shadow: 0px 15px 20px #26223e;
+        transition-duration: 0.5s;
+    }
+
+@media only screen and (max-width: 600px){
+    
+} 
