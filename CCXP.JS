@@ -4,7 +4,7 @@ const hora = document.getElementById('hora')
 const minuto = document.getElementById('minuto')
 const segundo = document.getElementById('segundo')
 // Identificando quando será o lancamento atravez da variavel
-const lancamento = "14 JAN 2024"
+const lancamento = "15 september 2024"
 // Criação da função para identificação das datas parametros
 function countDown(){
     const dataLanc = new Date(lancamento)
@@ -29,7 +29,7 @@ function countDown(){
 }
 
 function formatoTempo(Tempo){
-    return Tempo <10? `0${Tempo}` : Tempo;  
+    return Tempo <10? `0${Tempo}`:Tempo;  
 }
 
 

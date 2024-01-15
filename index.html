@@ -51,7 +51,7 @@
                 </div>
             </div>
             <p> PARA A MAIOR CCXP DE TODOS OS TEMPOS </p>
-            <video id="video" controls autoplay loop> <source src="Arlequina.MP4" type="video/MP4"></video>
+            <video id="video" controls loop><source src="Arlequina.MP4" type="video/MP4"></video>
         </div>
     </section>
 
@@ -59,13 +59,41 @@
     <footer>
         <div>
             <h1> AINDA DÁ TEMPO DE GARANTIR O SEU, MAS CORRE! </h1>
-            <img src="imagens/quint.svg"  id="quinta" width="190px" class="Ingresso">
-            <img src="imagens/sext.svg"   id="sexta" width="190px" class="Ingresso">
-            <img src="imagens/sabado.svg"  id="sabado" width="190px" class="Ingresso">
-            <img src="imagens/domin.svg"  id="domingo" width="190px" class="Ingresso">
+            <!-- Imagem Quinta -->
+            <img src="imagens/quint.svg" 
+            class="Ingresso"
+            id="quinta"
+            width="190px"
+            onclick="selectCard('#quinta')"
+            onmouseover="highlightCard('#quinta')" 
+            onmouseout="highlightCard('#quinta')">
+            <!-- Imagem Sexta -->
+            <img src="imagens/sext.svg"
+            class="Ingresso"
+            id="sexta"
+            width="190px"
+            onclick="selectCard('#sexta')"
+            onmouseover="highlightCard('#sexta')" 
+            onmouseout="highlightCard('#sexta')">
+            <!-- Imagem Sabado -->
+            <img src="imagens/sabado.svg" 
+            class="Ingresso"
+            id="sabado"
+            width="190px"
+            onclick="selectCard('#sabado')"
+            onmouseover="highlightCard('#sabado')" 
+            onmouseout="highlightCard('#sabado')">
+            <!-- Imagem Domingo -->
+            <img src="imagens/domin.svg" 
+            class="Ingresso"
+            id="domingo"
+            width="190px"
+            onclick="selectCard('#domingo')"
+            onmouseover="highlightCard('#domingo')" 
+            onmouseout="highlightCard('#domingo')">
         </div>
         <div>
-            <button>Garanta o Seu </button>
+            <button onclick="showSelectedCards()"> Garanta o Seu </button>
         </div>    
     </footer>
     <script src="CCXP.JS"></script>
